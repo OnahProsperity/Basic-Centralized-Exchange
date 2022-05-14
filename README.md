@@ -6,12 +6,12 @@
 <h2>Install</h2>
 
 ```sh
-npm i cex
+npm i cexdb
 ```
 <h2>Usage</h2>
 
 ```js
-const acrexs = require("cex")
+const cex = require("cex")
 
 // Takes in a wallet name that will be stored on the db and create BTC mnemonics
 // return false if walletname already exist

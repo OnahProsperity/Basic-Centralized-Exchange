@@ -1,6 +1,6 @@
 {
-  "name": "cex",
-  "version": "0.1.32",
+  "name": "cexdb",
+  "version": "0.0.3",
   "description": "Allows you to create hd wallets and store data on connected db",
   "main": "cex.js",
   "scripts": {
