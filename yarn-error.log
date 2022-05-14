@@ -1,0 +1,60 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\ENCRYPTION.001\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add .
+
+PATH: 
+  D:\Download\Program\cmder\vendor\conemu-maximus5\ConEmu\Scripts;D:\Program files\Scripts\;D:\Program files\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\Program files;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Windows;C:\ProgramData\google-cloud-sdk\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;D:\Download\Program\cmder\vendor\bin;D:\Download\Program\cmder\vendor\conemu-maximus5\ConEmu\Scripts;D:\Download\Program\cmder\vendor\conemu-maximus5;D:\Download\Program\cmder\vendor\conemu-maximus5\ConEmu;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\ENCRYPTION.001\AppData\Local\Microsoft\WindowsApps;D:\Program files\Microsoft VS Code\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;D:\Download\Program\cmder;D:\Program files\Scripts;C:\Users\ENCRYPTION.001\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  14.17.6
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 140.82.121.4:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+
+npm manifest: 
+  {
+    "name": "cex",
+    "version": "0.2.0",
+    "description": "Allows you to create hd wallets and store data on connected db",
+    "main": "cex.js",
+    "scripts": {
+      "test": "jest --coverage"
+    },
+    "keywords": [],
+    "author": "Onah Prosperity",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^0.21.4",
+      "bip32": "^2.0.6",
+      "bip39": "^3.0.4",
+      "bitcoinjs-lib": "^5.2.0",
+      "bitcore-explorers": "^1.0.1",
+      "bitcore-lib": "^8.25.10",
+      "bs58check": "^2.1.2",
+      "create-hash": "^1.2.0",
+      "ethereumjs-util": "^7.1.1",
+      "ethereumjs-wallet": "^1.0.2",
+      "express": "^4.17.1",
+      "hdkey": "^2.0.1",
+      "mssql": "^7.2.1",
+      "mssql-tedious-1-11-4": "^2.2.1",
+      "truffle-hdwallet-provider": "^1.0.17",
+      "wallet-address-validator": "^0.2.4",
+      "web3": "^1.5.3"
+    },
+    "devDependencies": {
+      "jest": "^27.2.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
